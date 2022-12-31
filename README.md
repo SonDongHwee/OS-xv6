@@ -1,5 +1,5 @@
 # MIT 6.1810
-## I'm started to solve Lab assignment of MIT 6.1810: Operating System Engineering
+## I started to solve Lab assignment of MIT 6.1810: Operating System Engineering
 
 ### Lab1 : Xv6 and Unix utilities
 ### Lab2 : System calls
