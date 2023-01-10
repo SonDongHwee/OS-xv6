@@ -16,3 +16,8 @@
 ## find(<span style="color:#008000">moderate</span>)
 ![findex](./findex.png)
 ![findgrade](./find.png)
+
+--- 
+## xargs(<span style="color:#008000">moderate</span>)
+![xargsex](./xargsex.png)
+![xargs](./xargs.png)
