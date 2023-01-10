@@ -11,3 +11,8 @@
 --- 
 ## primes(<span style="color:#0000ff">moderate</span>)/(<span style="color:red">hard</span>)
 ![primes](./primes.png)
+
+--- 
+## find(<span style="color:#008000">moderate</span>)
+![findex](./findex.png)
+![findgrade](./find.png)
