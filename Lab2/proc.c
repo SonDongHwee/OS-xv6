@@ -149,6 +149,7 @@ found:
     memset(&p->context, 0, sizeof(p->context));
     p->context.ra = (uint64)forkret;
     p->context.sp = p->kstack + PGSIZE;
+    p->syscall_trace = 0;
 
     return p;
 }
@@ -316,6 +317,8 @@ int fork(void)
     np->cwd = idup(p->cwd);
 
     safestrcpy(np->name, p->name, sizeof(p->name));
+
+    np->syscall_trace = p->syscall_trace; // added for syscall trace
 
     pid = np->pid;
 
