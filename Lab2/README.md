@@ -14,9 +14,9 @@
 ## System call tracing(moderate)
 1. > Modify makefile user/user.h and user/usys.pl to use trace as application
 2. > Allocate SYS_trace num at syscall.h <br>
-<img src="./syscall_header.png" height = 150></img>
+<img src="./syscall_header.png" height = 50></img>
 3. > Write sys_trace func <br>
-<img src="./sys_trace.png" height = 100></img>
+<img src="./sys_trace.png" height = 130></img>
 4. > print syscall info at syscall.c <br>
 <img src="./syscall_syscall.png" height = 100></img>
 5. > Inherit mask to forked process <br>
