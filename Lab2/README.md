@@ -26,3 +26,4 @@
 
 ---
 ## Sysinfo(moderate)
+<img src="./sysinfotest.png" height = 200></img>
